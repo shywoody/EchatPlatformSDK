@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-EchatPlatFormSDK
+一洽多商户SDK,be happy,my friend
                    DESC
 
   spec.homepage     = "https://github.com/shywoody/EchatPlatformSDK"
@@ -127,6 +127,11 @@ EchatPlatFormSDK
   spec.libraries = "sqlite3","z","iconv"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
+
+  spec.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
