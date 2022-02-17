@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EchatPlatformSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+EchatPlatFormSDK
                    DESC
 
   spec.homepage     = "https://github.com/shywoody/EchatPlatformSDK"
@@ -123,7 +124,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
   spec.frameworks = "CoreFoundation","QuartzCore","Security"
-  spec.libraries = "sqlite3","libz","libiconv"
+  spec.libraries = "sqlite3","z","iconv"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
