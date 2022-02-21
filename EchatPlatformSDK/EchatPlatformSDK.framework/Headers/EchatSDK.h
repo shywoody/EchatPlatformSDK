@@ -88,14 +88,6 @@
                      MetaData:(NSString *)metaData
                StatusCallback:(void(^)(BOOL flag,NSString * message))callBack;
 
-
-+ (void)echat_SDKLoginWithPushInfo:(NSString *)pushInfo
-                      WithMetaData:(NSString *)metaData
-                               Uid:(NSString *)uid
-                      Success:(dispatch_block_t)success
-                              fail:(void(^)(NSString * errorMessage))fail;
-
-
 /// 登出
 /// @param uid 唯一id
 /// @param success 成功回调
@@ -108,9 +100,6 @@
 /// @param uid 唯一Id
 /// @param callBack 系统登陆状态回调
 + (void)echat_isLogin:(NSString *)uid StatusCallback:(void(^)(BOOL flag,NSString * message))callBack;
-
-//测试
-+(void)echat_updatePushInfo:(NSString *)deviceToken WithUid:(NSString *)uid isThirdPush:(BOOL)istp  Success:(dispatch_block_t)success  fail:(void(^)(NSString * errorMessage))fail;
 
 
 /// 更新会员信息

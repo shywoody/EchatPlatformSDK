@@ -18,11 +18,13 @@ NS_ASSUME_NONNULL_BEGIN
 /*
  *           获取动态变化的未读消息总数(未读消息数变化回调)
  */
+@optional
 - (void)unReadMessagesSumCountChanged:(NSInteger)count;
 
 /*
  *           动态获取未读消息
  */
+@optional
 - (void)getReceivedMessage:(Echat_MsgModel *)message;
 
 @end
@@ -95,7 +97,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 关闭当前所有对话
 /// @param success 成功回调
 /// @param fail 失败回调
-+ (void)closeAllConversationSuccess:(dispatch_block_t)success fail:(void(^)(NSString * errorMsg))fail;
++ (void)closeAllConversationSuccess:(dispatch_block_t _Nullable)success fail:(void(^)(NSString * _Nullable errorMsg))fail;
 
 @end
 
