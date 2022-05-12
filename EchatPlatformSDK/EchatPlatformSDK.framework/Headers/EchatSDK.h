@@ -153,7 +153,11 @@
 /// 消息复制功能
 /// @param open 是否关闭消息复制功能:(默认开启)
 + (void)echat_LongpressCopyMessageFunction:(BOOL)open;
+#pragma mark -- 设置
 
+/// 全局语言设置
+/// @param lan (eg: @"zh", @"en") 需要在初始化SDK之前进行设置,默认为系统语言
++ (void)echat_setLan:(NSString *)lan;
 #pragma mark -- 清理
 ///获取缓存大小
 + (double)getMemorySize;
