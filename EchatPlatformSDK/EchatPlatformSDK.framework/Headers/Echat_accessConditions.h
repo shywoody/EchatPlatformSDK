@@ -23,9 +23,6 @@
 ///入口/入口标签
 @property (nonatomic, copy) NSString  * echatTag;
 
-///自定义对话窗口语言,默认为系统语言
-@property (nonatomic, copy) NSString  * lan;
-
 ///图文消息
 @property (nonatomic, strong) Echat_visEvtModel  * visEvt;
 
