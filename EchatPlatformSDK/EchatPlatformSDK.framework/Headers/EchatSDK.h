@@ -156,7 +156,7 @@
 #pragma mark -- 设置
 
 /// 全局语言设置
-/// @param lan (eg: @"zh", @"en") 需要在初始化SDK之前进行设置,默认为系统语言
+/// @param lan (eg: @"zh", @"en") 需要在初始化SDK之前进行设置,默认为系统语言,对话中途修改语言会在下次对话生效
 + (void)echat_setLan:(NSString *)lan;
 #pragma mark -- 清理
 ///获取缓存大小
