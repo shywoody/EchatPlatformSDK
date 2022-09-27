@@ -93,6 +93,8 @@ NS_ASSUME_NONNULL_BEGIN
 +(void)anonymousVisitorRegistMetaData:(NSString *)metaStr UId:(NSString *)uid success:(dispatch_block_t)success fail:(void(^)(NSString * errorMsg))fail;
 
 
+/// 关闭连接
++ (void)disConnect;
 
 /// 关闭当前所有对话
 /// @param success 成功回调
