@@ -64,7 +64,7 @@ typedef void(^EchatVisEvtCallBack)(NSString * data);
 - (void)echat_openMap;
 
 #pragma mark -- 导航栏按钮方法
-///左侧按钮点击事件（返回）
+///左侧按钮点击事件（页面返回事件, 默认只会返回上一层级。如果需要实现跨层级返回可以继承重写改方法实现自己的返回逻辑）
 - (void)back;
 
 ///右侧按钮点击事件（结束当前对话）
