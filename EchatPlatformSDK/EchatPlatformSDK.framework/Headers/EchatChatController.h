@@ -39,6 +39,9 @@ typedef void(^EchatVisEvtCallBack)(NSString * data);
 ///默认为YES,控制器内部设置了Navigation左右item,分别为返回back和对话关闭功能closeConversation
 @property (nonatomic, assign) BOOL defaultNavigationItemVisualable;
 
+///强制RTL(默认YES，用于适配阿拉伯语，会强制导航控制器RTL)
+@property (nonatomic, assign) BOOL forceRTL;
+
 ///initlize
 + (instancetype)chatWithCondition:(Echat_accessConditions *)condition;
 
