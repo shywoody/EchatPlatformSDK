@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EchatPlatformSDK"
-  spec.version      = "1.2.8"
+  spec.version      = "1.2.9"
   spec.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -123,7 +123,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.frameworks = "CoreFoundation","QuartzCore","Security"
+  spec.frameworks = "CoreFoundation","QuartzCore","Security","PhotosUI"
   spec.libraries = "sqlite3","z","iconv"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
