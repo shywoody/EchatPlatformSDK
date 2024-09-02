@@ -5,6 +5,8 @@
 # Mac OS X Finder and whatnot
 .DS_Store
 
+.ruby-version
+
 ## Build generated
 build/
 DerivedData/
