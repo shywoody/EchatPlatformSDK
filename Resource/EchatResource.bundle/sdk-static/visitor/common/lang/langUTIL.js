@@ -27,7 +27,6 @@ var lanRes = {
     nextPic: '&nbsp;换一张&nbsp;',
     okay: '确定',
     cancel: '取消',
-    cancel2: '取消',
     send: '发送',
     close: '关闭',
     waitting: '请稍等...',

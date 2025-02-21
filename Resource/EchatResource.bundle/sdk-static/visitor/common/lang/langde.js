@@ -25,7 +25,6 @@ var lanRes = {
     nextPic : 'Bild wechseln',
     okay : 'Sicher',
     cancel : 'Absagen',
-    cancel2 : 'Absagen',
     send : 'senden',
     close : 'Beenden',
     waitting : 'Bitte warten Sie einen Moment...',
@@ -190,7 +189,7 @@ var lanRes = {
     visitor181:'Upload fehlgeschlagen',
     visitor182:'erfolgreich gelöscht',
     visitor183:'Das Ticket wurde erfolgreich eingereicht',
-    visitor184:'Vielen Dank für Ihr Feedback. Wir werden Sie über den neuesten Fortschritt per E-Mail informieren.',
+    visitor184:'Folgen Sie dem WeChat-Scan-Code, um den Echtzeitfortschritt des Arbeitsauftrags anzuzeigen',
     visitor185:"Laden Sie dieselbe Datei nicht mehrmals hoch！",
     visitor186:"Senden Sie ein neues Ticket",
     visitor187:"Der aktuelle Kundendienst ist nicht online. Müssen Sie weiterhin Arbeitsaufträge einreichen?",
@@ -226,8 +225,6 @@ var lanRes = {
     upload_error: "Das Dateiformat wird nicht unterstützt. Bitte komprimieren und senden",
     stopAnswer: "Hören Sie auf zu antworten",
     blockAnswer: "Die Antwort wird generiert, bitte warten...",
-    pleaseSelect: "bitte auswählen",
-    back: "Zurück",
 
     "vis_1": "anormale Netzwerkverbindung,",
     "vis_2": "Klicken Sie zum Aktualisieren",
@@ -250,13 +247,8 @@ var lanRes = {
     "vis_59": "Kommunikations-Timeout, bitte versuchen Sie es erneut.",
     "vis_60": "Wiederholen",
     "vis_61": "Laden fehlgeschlagen",
-    "vis_62": "Berechtigungsnutzungsanweisungen",
-    "vis_63": "Die aktuelle Anwendung fordert die Speicherberechtigung an, damit Besucher während des Gesprächsprozesses Bilder, Videos und andere Dateien für den Kundendienst auswählen und senden können. Dies ist für eine effektive Kommunikation und Problemlösung erforderlich. Wenn Sie diese Berechtigung nicht gewähren, hat dies keine Auswirkungen auf andere Funktionen.", 
-    "vis_64": "Zur Autorisierung gehen",
-    "vis_65": "Erlauben Sie die Speicherberechtigungen in den Anwendungsberechtigungseinstellungen, um Bilder und Videos im Album zu verwenden und Dateien im lokalen Speicher zu speichern.",
-    "vis_66": "Journal",
-    "vis_67": "Zum Hochladen klicken",
-    "vis_68": "Hochladen fehlgeschlagen, klicken Sie zum Anzeigen",
+    
+
 };
 
 if(typeof module!='undefined' && module.exports){

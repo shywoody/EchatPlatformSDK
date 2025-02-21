@@ -35,7 +35,6 @@ var lanRes = {
     "nextPic": "&nbsp;Refresh&nbsp;",
     "okay": "Tentu",
     "cancel": "Membatalkan",
-    "cancel2": "Membatalkan",
     "send": "Kirim",
     "close": "Tutup",
     "waitting": "Mohon tunggu sebentar ya…",
@@ -216,7 +215,7 @@ var lanRes = {
     "visitor181": "Yah, upload gagal",
     "visitor182": "Berhasil menghapus",
     "visitor183": "Yeay, laporan berhasil dikirim",
-    "visitor184": "Terima kasih atas feedback Anda. Kami akan memberitahu Anda tentang kemajuan terbaru melalui email.",
+    "visitor184": "微信扫码关注，查看工单实时进度",
     "visitor185": "Mohon untuk tidak mengirimkan ulang file yang sama ya",
     "visitor186": "Kirim Laporan Baru",
     "visitor187": "Saat ini Customer Service sedang offline. Apakah kamu ingin lanjut mengirimkan laporan?",
@@ -252,8 +251,7 @@ var lanRes = {
     upload_error: "Format berkas tidak didukung. Silakan kompresi dan kirim",
     stopAnswer: "Berhenti menjawab",
     blockAnswer: "Jawaban sedang dibuat, harap tunggu...",
-    pleaseSelect: "tolong pilih",
-    back: 'Kembali',
+
     "vis_1": "koneksi jaringan yang tidak normal,",
     "vis_2": "klik untuk menyegarkan",
     "vis_3": "Silakan periksa jaringan Anda",
@@ -275,13 +273,6 @@ var lanRes = {
     "vis_59": "Waktu komunikasi habis, tolong coba lagi.",
     "vis_60": "Essayez à nouveau",
     "vis_61": "Memuatkan gagal",
-    "vis_62": "Permission Usage Instructions",
-    "vis_63": "The current application is requesting storage permission for visitors to select and send images, videos, and other files to customer service during the conversation process. This is necessary for effective communication and problem-solving. Not granting this permission will not affect other functions.", 
-    "vis_64": "Go to authorization",
-    "vis_65": "Allow storage permissions in application permission settings to use images and videos in album, save file to local storage.",
-    "vis_66": "Log",
-    "vis_67": "Klik untuk mengunggah",
-    "vis_68": "Upload gagal, klik untuk melihat",
 }
 
 if (typeof module != 'undefined' && module.exports) {

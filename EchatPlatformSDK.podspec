@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EchatPlatformSDK"
-  spec.version      = "1.4.6"
+  spec.version      = "1.4.7"
   spec.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -106,6 +106,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.resources = "Resource/EchatResource.bundle"
+
+  #spec.resource_bundles = {
+  #  'Resource' => ['Resource/PrivacyInfo.xcprivacy']
+  #}
+
   spec.source_files = 'EchatPlatformSDK/EchatPlatformSDK.framework/Headers/*.{h}'
   spec.ios.vendored_frameworks = 'EchatPlatformSDK/EchatPlatformSDK.framework'
   spec.public_header_files = 'EchatPlatformSDK/EchatPlatformSDK.framework/Headers/EchatPlatformSDK.h'
