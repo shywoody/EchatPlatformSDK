@@ -27,6 +27,8 @@ cons = getQueryString('noConsole');
 if (cons && cons == '0' && window.VConsole) {
     window.vConsole = new VConsole();
 }
+window._evp_sgp = "../plugin";
+appendScript("../plugin/chatEntrance.js");
 appendScript('../../res/emoji/emoji_' + ((path == 'zhcn' || path == 'zhtw') ? 'zh' : 'en') + '.json');
 
 export default window.lanResName;
